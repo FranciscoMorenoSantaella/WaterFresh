@@ -1,0 +1,676 @@
+{
+  "AVOIDED": {},
+  "PREFERRED": {},
+  "SAFETY": {
+    "16": [],
+    "-1": [],
+    "5": [],
+    "21": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "14": []
+  },
+  "PLAYER_INFOS": {},
+  "PLAYER_TAGS": [],
+  "UNRESOLVED": [],
+  "CUSTOM_CONFIGS": {
+    "eu.darkbot.popcorn.def.SampleModule": {
+      "BOOLEAN_VALUE": true,
+      "INTEGER_LIMIT": 1,
+      "PERCENTAGE_VALUE": 0.5,
+      "MOVE_SHIP": false
+    },
+    "eu.darkbot.popcorn.def.AntiPush": {
+      "DRAWFIRE_PAUSE_TIME": -1,
+      "MAX_DEATHS": 7,
+      "DEATH_PAUSE_TIME": -1
+    },
+    "eu.darkbot.popcorn.def.UserAgentUpdater": {
+      "USER_AGENT": "BigpointClient/1.6.3",
+      "NEXT_UPDATE": 1642512604969
+    }
+  },
+  "PLUGIN_INFOS": {
+    "Default plugin_by_Popcorn": {
+      "DISABLED_FEATURES": [],
+      "ENABLED_FEATURES": [
+        "eu.darkbot.popcorn.def.SampleModule",
+        "eu.darkbot.popcorn.def.AntiPush",
+        "eu.darkbot.popcorn.def.CaptchaPicker",
+        "eu.darkbot.popcorn.def.FlashPatcher",
+        "eu.darkbot.popcorn.def.PalladiumModule",
+        "eu.darkbot.popcorn.def.UserAgentUpdater"
+      ]
+    }
+  },
+  "GENERAL": {
+    "CURRENT_MODULE": "com.github.manolo8.darkbot.modules.LootNCollectorModule",
+    "WORKING_MAP": 8,
+    "OFFENSIVE": {
+      "CONFIG": 1,
+      "FORMATION": "8"
+    },
+    "ROAM": {
+      "CONFIG": 1,
+      "FORMATION": "8"
+    },
+    "RUN": {
+      "CONFIG": 2,
+      "FORMATION": "8"
+    },
+    "FORMATION_CHECK": 180,
+    "SAFETY": {
+      "REPAIR_HP_RANGE": {
+        "min": 0.4,
+        "max": 0.95
+      },
+      "REPAIR_HP_NO_NPC": 0.5,
+      "REPAIR_TO_SHIELD": 1.0,
+      "REPAIR": {
+        "CONFIG": 1,
+        "FORMATION": "8"
+      },
+      "MAX_DEATHS": 10,
+      "REVIVE_LOCATION": 1,
+      "WAIT_BEFORE_REVIVE": 5,
+      "WAIT_AFTER_REVIVE": 90
+    },
+    "RUNNING": {
+      "RUN_FROM_ENEMIES": true,
+      "REMEMBER_ENEMIES_FOR": 300,
+      "RUN_FROM_ENEMIES_SIGHT": false,
+      "STOP_RUNNING_NO_SIGHT": true,
+      "MAX_SIGHT_DISTANCE": 4000,
+      "SHIP_ABILITY_MIN": 1500,
+      "RUN_FURTHEST_PORT": 1500
+    },
+    "ROAMING": {
+      "KEEP": true,
+      "SEQUENTIAL": false,
+      "ONLY_KILL_PREFERRED": false,
+      "ENEMY_CBS_INVISIBLE": false
+    }
+  },
+  "COLLECT": {
+    "STAY_AWAY_FROM_ENEMIES": false,
+    "AUTO_CLOACK": false,
+    "RADIUS": 400,
+    "IGNORE_CONTESTED_BOXES": true,
+    "BOX_INFOS": {
+      "ore_0": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ore_2": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "ore_1": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BATTLEPASS": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "MUCOSUM": {
+        "collect": true,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "FROM_SHIP": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "SCRAPIUM": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BONUS_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY_GOLD": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "MASQUE_BOOTY_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "PIRATE_BOOTY": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      },
+      "BLACK_BOOTY_BOX": {
+        "collect": false,
+        "waitTime": 0,
+        "priority": 0
+      }
+    }
+  },
+  "LOOT": {
+    "SAB": {
+      "ENABLED": false,
+      "KEY": "2",
+      "PERCENT": 0.8,
+      "NPC_AMOUNT": 12000
+    },
+    "RSB": {
+      "ENABLED": false,
+      "KEY": "3",
+      "AMMO_REFRESH": 3500
+    },
+    "AMMO_KEY": "1",
+    "SHIP_ABILITY_MIN": 150000,
+    "MAX_CIRCLE_ITERATIONS": 5,
+    "RUN_CONFIG_IN_CIRCLE": true,
+    "GROUP_NPCS": true,
+    "NPC_INFOS": {
+      "-\u003d[ Sibelon ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 5,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          8
+        ]
+      },
+      "-\u003d[ Lordakium ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 173,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21
+        ]
+      },
+      "-\u003d[ Devolarium ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 3,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          7
+        ]
+      },
+      "-\u003d[ Lordakia ]\u003d-": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "attackKey": "1",
+        "npcId": 2,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21,
+          6,
+          7,
+          8
+        ]
+      },
+      "-\u003d[ Mordon ]\u003d-": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "attackKey": "1",
+        "npcId": 4,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          7,
+          8
+        ]
+      },
+      "-\u003d[ Streuner ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 1,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          5,
+          6
+        ]
+      },
+      "-\u003d[ Recruit Streuner ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 152,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          5,
+          6
+        ]
+      },
+      "..::{ Boss Devolarium }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 18,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          7
+        ]
+      },
+      "-\u003d[ Saimon ]\u003d-": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "attackKey": "1",
+        "npcId": 6,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          7,
+          8
+        ]
+      },
+      "* Lordakium Spore *": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 2,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21
+        ]
+      },
+      "..::{ Boss Lordakium }::...": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 21,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21
+        ]
+      },
+      "-\u003d[ Sibelonit ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 7,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          21
+        ]
+      },
+      "..::{ Boss Mordon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": true,
+        "attackKey": "1",
+        "npcId": 16,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          7
+        ]
+      },
+      "..::{ Boss Streuner }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 14,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          6
+        ]
+      },
+      "..::{ Boss Saimon }::..": {
+        "radius": 570.0,
+        "priority": 0,
+        "kill": true,
+        "attackKey": "1",
+        "npcId": 17,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          7,
+          8
+        ]
+      },
+      "..::{ Boss Lordakia }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 15,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          6
+        ]
+      },
+      "..::{ Boss Sibelon }::..": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 20,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          8
+        ]
+      },
+      "-\u003d[ Aider Streuner ]\u003d-": {
+        "radius": 500.0,
+        "priority": 0,
+        "kill": false,
+        "npcId": 153,
+        "extra": {
+          "flags": []
+        },
+        "mapList": [
+          5
+        ]
+      }
+    },
+    "NPC_DISTANCE_IGNORE": 3000
+  },
+  "PET": {
+    "ENABLED": false,
+    "MODULE": 0,
+    "COMPATIBILITY_MODE": false,
+    "MODULE_ID": 1
+  },
+  "GROUP": {
+    "ACCEPT_INVITES": false,
+    "OPEN_INVITES": false,
+    "LEAVE_NO_WHITELISTED": false
+  },
+  "MISCELLANEOUS": {
+    "REFRESH_AFTER_REVIVE": false,
+    "REFRESH_TIME": 60,
+    "PAUSE_FOR": 0,
+    "RESET_REFRESH": true,
+    "DRONE_REPAIR_PERCENTAGE": 0.9,
+    "HONOR_LOST_EXACT": true,
+    "LOG_CHAT": false,
+    "LOG_DEATHS": false
+  },
+  "BOT_SETTINGS": {
+    "BOT_GUI": {
+      "LOCALE": "es",
+      "CONFIRM_EXIT": true,
+      "SAVE_GUI_POS": false,
+      "CONFIG_TREE_TABS": true,
+      "BUTTON_SIZE": 4,
+      "ALWAYS_ON_TOP": true,
+      "MAIN_GUI_WINDOW": {
+        "x": 646,
+        "y": 248,
+        "width": 640,
+        "height": 480
+      }
+    },
+    "API_CONFIG": {
+      "API": 2,
+      "FULLY_HIDE_API": true,
+      "FORCE_GAME_LANGUAGE": false,
+      "ENFORCE_HW_ACCEL": true,
+      "width": 1280,
+      "height": 800
+    },
+    "MAP_DISPLAY": {
+      "TOGGLE": [
+        "HERO_NAME",
+        "HP_SHIELD_NUM",
+        "ZONES",
+        "STATS_AREA",
+        "GROUP_AREA",
+        "GROUP_NAMES",
+        "BOOSTER_AREA"
+      ],
+      "TRAIL_LENGTH": 15,
+      "MAP_START_STOP": false,
+      "cs": {
+        "BACKGROUND": {
+          "value": -14273992,
+          "falpha": 0.0
+        },
+        "TEXT": {
+          "value": -855310,
+          "falpha": 0.0
+        },
+        "TEXT_DARK": {
+          "value": -4473925,
+          "falpha": 0.0
+        },
+        "GOING": {
+          "value": -7365633,
+          "falpha": 0.0
+        },
+        "PORTALS": {
+          "value": -5329234,
+          "falpha": 0.0
+        },
+        "HERO": {
+          "value": -14496734,
+          "falpha": 0.0
+        },
+        "TRAIL_BASE": {
+          "value": -2039584,
+          "falpha": 0.0
+        },
+        "BOXES": {
+          "value": -4474832,
+          "falpha": 0.0
+        },
+        "MINES": {
+          "value": -32768,
+          "falpha": 0.0
+        },
+        "ALLIES": {
+          "value": -14043402,
+          "falpha": 0.0
+        },
+        "ENEMIES": {
+          "value": -2818048,
+          "falpha": 0.0
+        },
+        "NPCS": {
+          "value": -5619648,
+          "falpha": 0.0
+        },
+        "TARGET": {
+          "value": -9032660,
+          "falpha": 0.0
+        },
+        "PET": {
+          "value": -16757620,
+          "falpha": 0.0
+        },
+        "PET_IN": {
+          "value": -3842048,
+          "falpha": 0.0
+        },
+        "HEALTH": {
+          "value": -13070788,
+          "falpha": 0.0
+        },
+        "NANO_HULL": {
+          "value": -3092444,
+          "falpha": 0.0
+        },
+        "SHIELD": {
+          "value": -16611119,
+          "falpha": 0.0
+        },
+        "METEROID": {
+          "value": -5592406,
+          "falpha": 0.0
+        },
+        "PING": {
+          "value": 536936192,
+          "falpha": 0.0
+        },
+        "PING_BORDER": {
+          "value": -2147418368,
+          "falpha": 0.0
+        },
+        "BARRIER": {
+          "value": 553648127,
+          "falpha": 0.0
+        },
+        "BARRIER_BORDER": {
+          "value": -2130706433,
+          "falpha": 0.0
+        },
+        "NO_CLOACK": {
+          "value": 538484991,
+          "falpha": 0.0
+        },
+        "PREFER": {
+          "value": 536936320,
+          "falpha": 0.0
+        },
+        "AVOID": {
+          "value": 553582592,
+          "falpha": 0.0
+        },
+        "SAFETY": {
+          "value": 1611694335,
+          "falpha": 0.0
+        },
+        "BASES": {
+          "value": -16711808,
+          "falpha": 0.0
+        },
+        "BASE_SPOTS": {
+          "value": 536936320,
+          "falpha": 0.0
+        },
+        "UNKNOWN": {
+          "value": -8649263,
+          "falpha": 0.0
+        },
+        "TEXTS_BACKGROUND": {
+          "value": -2144980424,
+          "falpha": 0.0
+        },
+        "ACTION_BUTTON": {
+          "value": -1593835521,
+          "falpha": 0.0
+        },
+        "DARKEN_BACK": {
+          "value": 1610612736,
+          "falpha": 0.0
+        },
+        "ZONE_EDITOR": {
+          "LINES": {
+            "value": -2139062144,
+            "falpha": 0.0
+          },
+          "HOVERING": {
+            "value": -16738616,
+            "falpha": 0.0
+          },
+          "SELECTING": {
+            "value": -16744193,
+            "falpha": 0.0
+          },
+          "ZONE": {
+            "value": 1073807232,
+            "falpha": 0.0
+          }
+        },
+        "SAFETY_EDITOR": {
+          "ZONE_HIGHLIGHT": {
+            "value": 1610678144,
+            "falpha": 0.0
+          },
+          "ZONE_SELECTED": {
+            "value": -2147418240,
+            "falpha": 0.0
+          },
+          "ZONE_SOLID": {
+            "value": -16711808,
+            "falpha": 0.0
+          }
+        },
+        "FONTS": {
+          "BIG": {
+            "name": "Consolas",
+            "style": 0,
+            "size": 32,
+            "pointSize": 32.0,
+            "fontSerializedDataVersion": 1
+          },
+          "MID": {
+            "name": "SansSerif",
+            "style": 0,
+            "size": 18,
+            "pointSize": 18.0,
+            "fontSerializedDataVersion": 1
+          },
+          "SMALL": {
+            "name": "Consolas",
+            "style": 0,
+            "size": 12,
+            "pointSize": 12.0,
+            "fontSerializedDataVersion": 1
+          },
+          "TINY": {
+            "name": "SansSerif",
+            "style": 0,
+            "size": 9,
+            "pointSize": 9.0,
+            "fontSerializedDataVersion": 1
+          }
+        }
+      }
+    },
+    "OTHER": {
+      "DISABLE_MASTER_PASSWORD": false,
+      "ZONE_RESOLUTION": 30,
+      "MIN_TICK": 15,
+      "DEV_STUFF": false
+    }
+  },
+  "EXTRA": {
+    "ACTION_INFOS": {}
+  }
+}
